@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige background */
+    color: #5c4033; /* Dark brown text */
+}
+
+header {
+    background-color: #8b5a2b; /* Brown header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #5c4033; /* Dark brown footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-member {
+    background-color: #d2b48c; /* Tan background */
+    border: 1px solid #8b4513; /* Saddle brown border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.team-member h3 {
+    margin: 0;
+    color: #5c4033; /* Dark brown */
+}
+
+.team-member p {
+    margin: 5px 0;
+}
+
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.team-image {
+    width: 70%; /* Make the image responsive */
+    height: 135px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border-radius: 50%; /* Optional: make images circular */
+    margin-bottom: 10px; /* Space between image and text */
+}
